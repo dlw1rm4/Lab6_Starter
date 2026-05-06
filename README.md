@@ -1,2 +1,2 @@
 # Lab 6 - Starter
-### Name: Kaitlyn Nguy
+### Name: Kaitlyn Nguy, Alex Perelson
