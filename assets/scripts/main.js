@@ -82,7 +82,7 @@ function initFormHandler() {
 	// B9. TODO - Get the recipes array from localStorage, add this new recipe to it, and
 	//            then save the recipes array back to localStorage
 	// B10. TODO - Get a reference to the "Clear Local Storage" button
-	let clearButtonRef = document.querySelector('#clear-storage-button')
+	let clearButtonRef = document.querySelector('.danger');
 	// B11. TODO - Add a click event listener to clear local storage button
 	clearButtonRef.addEventListener('click', () => {
 		// Steps B12 & B13 will occur inside the event listener from step B11
