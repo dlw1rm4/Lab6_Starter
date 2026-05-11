@@ -14,9 +14,15 @@ class RecipeCard extends HTMLElement {
 		// A3. TODO - Create a style element - This will hold all of the styles for the Web Component
 		let styleEl = document.createElement('style');
 		// A4. TODO - Insert all of the styles from cardTemplate.html into the <style> element you just made (copy everything INSIDE the <style> tag>)
+		let aEl = document.createElement('a');
+		let divRatingEl = document.createElement('div');
+		let pEl = document.createElement('p');
 		// A5. TODO - Append the <style> and <article> elements to the Shadow DOM
 		shadowEl.appendChild(articleEl);
 		shadowEl.appendChild(styleEl);
+		shadow.appendChild(aEl);
+		shadow.appendChild(divRatingEl);
+		shadow.appendChild(pEl);
 	}
 
 	/**
